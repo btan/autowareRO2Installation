@@ -1,7 +1,7 @@
 # Autoware RO2 Source Installation Behind Firewall - Humble Edition
 ## Prerequisites
-Ubuntu 22.04 on WSL2
-[wsl-vpnkit](https://github.com/sakai135/wsl-vpnkit/)
+- Ubuntu 22.04 on WSL2
+- [wsl-vpnkit](https://github.com/sakai135/wsl-vpnkit/)
 ## Terminal Launch
 Launch a CMD terminal and start wsl-vpnkit.
 Make sure it it can connect to Internet before proceeding...
