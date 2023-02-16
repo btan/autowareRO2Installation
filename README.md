@@ -27,11 +27,12 @@ For example, when executing the following command to add the PPA repository to t
 ```sh
 sudo apt-add-repository ppa:astuff/kvaser-linux
 ```
-Manually create the source list in directory: /etc/apt/sources.list.d, and disable OCSP verification
-add the following link to source (jammy if your ubuntu version is 22.04):
+Manually create the source list in directory: /etc/apt/sources.list.d, and disable OCSP verification. 
+Add the following link to source (jammy if your ubuntu version is 22.04):
+```sh
 deb [trusted=yes] https://ppa.launchpadcontent.net/astuff/kvaser-linux/ubuntu jammy main 
 deb-src [trusted=yes] https://ppa.launchpadcontent.net/astuff/kvaser-linux/ubuntu jammy main
-
+```
 ```sh
 cd /etc/apt/sources.list.d
 sudo vi kvaser.list
